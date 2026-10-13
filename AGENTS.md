@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep each personal portfolio as one anchored, single-page route with all presentation colors and typography defined in the global stylesheet, so navigation stays simple and visual styling remains token-based.
