@@ -204,9 +204,9 @@ function Portfolio() {
           </Button>
         </div>
         <div className="portfolio-contact-links">
-          <a href="mailto:your.email@example.com"><span><Mail aria-hidden="true" /> EMAIL</span><span>your.email@example.com <ArrowUpRight aria-hidden="true" /></span></a>
-          <a href="https://github.com/your-username" target="_blank" rel="noreferrer"><span><Github aria-hidden="true" /> GITHUB</span><span>github.com/your-username <ArrowUpRight aria-hidden="true" /></span></a>
-          <a href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noreferrer"><span><Linkedin aria-hidden="true" /> LINKEDIN</span><span>linkedin.com/in/your-username <ArrowUpRight aria-hidden="true" /></span></a>
+          <a href="mailto:gautammanav1102@gmail.com><span><Mail aria-hidden="true" /> EMAIL</span><span>your.email@example.com <ArrowUpRight aria-hidden="true" /></span></a>
+          <a href="https://github.com/manavgautam0403-droidtarget="_blank" rel="noreferrer"><span><Github aria-hidden="true" /> GITHUB</span><span>github.com/your-username <ArrowUpRight aria-hidden="true" /></span></a>
+          <a href="https://www.linkedin.com/in/manavgautam-445338431/" target="_blank" rel="noreferrer"><span><Linkedin aria-hidden="true" /> LINKEDIN</span><span>linkedin.com/in/your-username <ArrowUpRight aria-hidden="true" /></span></a>
         </div>
         <footer className="portfolio-footer"><a aria-label="Back to the top" href="#home">mg<span>.</span></a><span>MADE WITH CURIOSITY <span aria-hidden="true">©</span> 2026</span><a href="#home">BACK TO TOP <ArrowUpRight aria-hidden="true" /></a></footer>
       </section>
