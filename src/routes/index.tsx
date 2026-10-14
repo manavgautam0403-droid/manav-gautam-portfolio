@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowDownRight, ArrowUpRight, Github, Linkedin, Mail, Menu, MoveRight, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -36,6 +36,7 @@ const navigation = [
 
 function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  useBotpressChat();
 
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
@@ -215,6 +216,30 @@ function Portfolio() {
       </section>
     </main>
   );
+}
+
+function useBotpressChat() {
+  useEffect(() => {
+    const injectorId = "botpress-webchat-injector";
+    const configId = "botpress-webchat-config";
+    if (document.getElementById(injectorId)) return;
+
+    const injector = document.createElement("script");
+    injector.id = injectorId;
+    injector.src = "https://cdn.botpress.cloud/webchat/v5.0/inject.js";
+    injector.async = true;
+    injector.onload = () => {
+      if (document.getElementById(configId)) return;
+
+      const config = document.createElement("script");
+      config.id = configId;
+      config.src = "https://files.bpcontent.cloud/2026/10/13/15/20261013155237-L8EI7HB6.js";
+      config.async = true;
+      document.body.append(config);
+    };
+    injector.onerror = () => console.error("The Botpress chatbot could not be loaded.");
+    document.head.append(injector);
+  }, []);
 }
 
 function SectionEyebrow({ number, label }: { number: string; label: string }) {

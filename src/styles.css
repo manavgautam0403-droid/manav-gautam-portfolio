@@ -215,6 +215,9 @@
 .portfolio-footer > a:last-child svg { width: 12px; height: 12px; color: var(--color-primary); }
 .portfolio-footer > a:last-child:hover { color: var(--color-primary); }
 
+/* Botpress mounts its fixed launcher inside a host that otherwise grows with the page. */
+.bpChatContainer #fab-root { position: fixed; top: 0; left: 0; width: 0; height: 0; overflow: visible; z-index: 9998; }
+
 @media (min-width: 1380px) {
   .portfolio-hero h1 { font-size: 96px; }
 }
