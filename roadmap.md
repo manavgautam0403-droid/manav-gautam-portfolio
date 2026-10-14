@@ -1,0 +1,3 @@
+- [ ] Verify mobile navigation and overflow at narrow screen widths.
+- [ ] Add the provided Botpress chatbot embed and verify it loads on desktop and mobile.
+- [ ] Check the preview diagnostics and confirm the portfolio is ready for preview/publishing.
