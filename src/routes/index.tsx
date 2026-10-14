@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/")({
   head: () => ({
+    <Scripts
+     src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/10/13/15/20261013155237-L8EI7HB6.js" defer></script>/>
     meta: [
       { title: "Manav Gautam — CSE Student & Curious Builder" },
       {
